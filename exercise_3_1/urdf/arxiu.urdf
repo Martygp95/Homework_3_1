@@ -1,0 +1,14 @@
+
+<?xml version="1.0"?>
+<robot name="my_tinkercad" xmlns:xacro="https://ros.org/wiki/xacro">
+
+<link name="my_link">
+
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <geometry>
+    <mesh filename="package://exercise_3_1/urdf/meshes/link.stl" />
+    </geometry>
+  </visual>
+</link>
+

@@ -1,0 +1,11 @@
+<launch>
+
+	<group ns ="masteruvic">
+		<param name = "year" value = "2018"/>
+		<param name="robot_description" textfile="$(find exercise_3_1)/urdf/arxiu.urdf" />
+	</group>
+
+	<!-- rviz -->
+	< node name="rviz" pkg="rviz" type="rviz" respawn="true" output="screen"/>
+
+</launch>
